@@ -47,7 +47,7 @@ const ProductDetail = () => {
 
       {!purchased ? (
         <Button
-          colorScheme="teal"
+          colorScheme="purple.500"
           onClick={() => {
             const examplePromise = new Promise((resolve, reject) => {
               setTimeout(() => resolve(200), 5000);
@@ -68,7 +68,7 @@ const ProductDetail = () => {
           Comprar
         </Button>
       ) : (
-        <Text mt="4" color="purple.500">
+        <Text mt="4" color="green.500">
           ¡Gracias por su compra!
         </Text>
       )}
