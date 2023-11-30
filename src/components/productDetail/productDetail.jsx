@@ -13,7 +13,7 @@ const ProductDetail = () => {
         
         <Box maxW="600px" m="auto" p="4" borderWidth="1px" borderRadius="lg" overflow="hidden" fontFamily={'Opensas'} mb={'20px'} boxShadow='base' bg={'-moz-initial'}>
             <Flex justify={'center'}> 
-            <Image src={gloss} alt="Gloss" mb="4" />
+            <Image src={gloss} alt="Gloss" mb="4" w={'40%'} />
             </Flex>
             <Heading as="h2" size="lg" mb="4">
             OH MY GLOSS! PLUMP | RIMMEL LONDON
