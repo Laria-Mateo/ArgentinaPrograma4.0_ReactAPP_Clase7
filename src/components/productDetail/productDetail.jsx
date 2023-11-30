@@ -68,7 +68,7 @@ const ProductDetail = () => {
           Comprar
         </Button>
       ) : (
-        <Text mt="4" color="green.500">
+        <Text mt="4" color="purple.500">
           ¡Gracias por su compra!
         </Text>
       )}
