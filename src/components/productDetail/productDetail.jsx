@@ -47,7 +47,7 @@ const ProductDetail = () => {
 
       {!purchased ? (
         <Button
-          colorScheme="purple.500"
+          colorScheme="purple"
           onClick={() => {
             const examplePromise = new Promise((resolve, reject) => {
               setTimeout(() => resolve(200), 5000);
